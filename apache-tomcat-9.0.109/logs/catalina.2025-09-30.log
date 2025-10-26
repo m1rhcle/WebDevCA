@@ -1,0 +1,452 @@
+30-Sep-2025 16:29:46.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 16:29:46.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 16:29:46.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 16:29:46.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 16:29:46.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 16:29:46.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 16:29:46.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 16:29:46.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 16:29:46.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 16:29:46.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:29:46.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:29:46.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\trick\Downloads\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 16:29:46.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 16:29:46.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 16:29:46.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 16:29:46.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 16:29:46.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 16:29:46.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:29:46.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:29:46.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\trick\Downloads\apache-tomcat-9.0.109\temp
+30-Sep-2025 16:29:46.350 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 16:29:46.770 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:29:46.819 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [738] milliseconds
+30-Sep-2025 16:29:46.853 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 16:29:46.853 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 16:29:46.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 16:29:47.383 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [196] milliseconds.
+30-Sep-2025 16:29:47.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs] has finished in [545] ms
+30-Sep-2025 16:29:47.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 16:29:48.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples] has finished in [828] ms
+30-Sep-2025 16:29:48.244 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 16:29:48.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager] has finished in [67] ms
+30-Sep-2025 16:29:48.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 16:29:48.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager] has finished in [66] ms
+30-Sep-2025 16:29:48.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 16:29:48.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT] has finished in [53] ms
+30-Sep-2025 16:29:48.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 16:29:48.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [58] ms
+30-Sep-2025 16:29:48.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 16:29:48.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting] has finished in [31] ms
+30-Sep-2025 16:29:48.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 16:29:48.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites] has finished in [30] ms
+30-Sep-2025 16:29:48.564 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:29:48.597 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1778] milliseconds
+30-Sep-2025 16:31:38.813 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 16:31:38.904 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [93] ms
+30-Sep-2025 16:31:50.382 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:31:50.912 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 16:31:50.996 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:31:51.031 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:31:58.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 16:31:58.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 16:31:58.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 16:31:58.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:31:58.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:31:58.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\trick\Downloads\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 16:31:58.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 16:31:58.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:31:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\trick\Downloads\apache-tomcat-9.0.109\temp
+30-Sep-2025 16:31:58.782 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 16:31:59.245 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:31:59.270 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [748] milliseconds
+30-Sep-2025 16:31:59.308 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 16:31:59.309 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 16:31:59.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 16:31:59.747 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+30-Sep-2025 16:31:59.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [448] ms
+30-Sep-2025 16:31:59.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 16:31:59.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs] has finished in [48] ms
+30-Sep-2025 16:31:59.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 16:32:00.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples] has finished in [535] ms
+30-Sep-2025 16:32:00.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 16:32:00.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager] has finished in [42] ms
+30-Sep-2025 16:32:00.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 16:32:00.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager] has finished in [42] ms
+30-Sep-2025 16:32:00.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 16:32:00.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT] has finished in [34] ms
+30-Sep-2025 16:32:00.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 16:32:00.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [40] ms
+30-Sep-2025 16:32:00.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 16:32:00.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting] has finished in [45] ms
+30-Sep-2025 16:32:00.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 16:32:00.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites] has finished in [61] ms
+30-Sep-2025 16:32:00.627 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:32:00.664 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1393] milliseconds
+30-Sep-2025 16:32:54.637 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:32:55.060 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 16:32:55.095 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:32:55.109 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:34:08.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 16:34:08.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 16:34:08.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 16:34:08.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 16:34:08.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 16:34:08.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 16:34:08.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 16:34:08.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 16:34:08.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 16:34:08.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:34:08.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:34:08.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\trick\Downloads\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 16:34:08.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\trick\Downloads\apache-tomcat-9.0.109
+30-Sep-2025 16:34:08.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\trick\Downloads\apache-tomcat-9.0.109\temp
+30-Sep-2025 16:34:08.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 16:34:09.027 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:34:09.050 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [569] milliseconds
+30-Sep-2025 16:34:09.077 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 16:34:09.077 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 16:34:09.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 16:34:09.608 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [226] milliseconds.
+30-Sep-2025 16:34:09.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [538] ms
+30-Sep-2025 16:34:09.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 16:34:09.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\docs] has finished in [45] ms
+30-Sep-2025 16:34:09.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 16:34:10.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\examples] has finished in [495] ms
+30-Sep-2025 16:34:10.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 16:34:10.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\host-manager] has finished in [40] ms
+30-Sep-2025 16:34:10.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 16:34:10.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\manager] has finished in [39] ms
+30-Sep-2025 16:34:10.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 16:34:10.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ROOT] has finished in [29] ms
+30-Sep-2025 16:34:10.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 16:34:10.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [26] ms
+30-Sep-2025 16:34:10.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 16:34:10.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\Voting] has finished in [27] ms
+30-Sep-2025 16:34:10.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 16:34:10.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\trick\Downloads\apache-tomcat-9.0.109\webapps\websites] has finished in [24] ms
+30-Sep-2025 16:34:10.365 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:34:10.380 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1329] milliseconds
+30-Sep-2025 16:42:01.611 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:42:02.079 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 16:42:02.109 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:42:02.123 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:44:40.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 16:44:40.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 16:44:40.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 16:44:40.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 16:44:40.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 16:44:40.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 16:44:40.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 16:44:40.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 16:44:40.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 16:44:40.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 16:44:40.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 16:44:40.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 16:44:40.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 16:44:40.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.109\temp
+30-Sep-2025 16:44:40.926 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 16:44:41.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:44:41.492 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [835] milliseconds
+30-Sep-2025 16:44:41.530 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 16:44:41.530 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 16:44:41.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 16:44:41.964 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [162] milliseconds.
+30-Sep-2025 16:44:41.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [444] ms
+30-Sep-2025 16:44:41.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 16:44:42.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs] has finished in [46] ms
+30-Sep-2025 16:44:42.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 16:44:42.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples] has finished in [468] ms
+30-Sep-2025 16:44:42.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 16:44:42.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager] has finished in [36] ms
+30-Sep-2025 16:44:42.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 16:44:42.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager] has finished in [34] ms
+30-Sep-2025 16:44:42.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 16:44:42.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT] has finished in [26] ms
+30-Sep-2025 16:44:42.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 16:44:42.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [22] ms
+30-Sep-2025 16:44:42.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 16:44:42.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting] has finished in [29] ms
+30-Sep-2025 16:44:42.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 16:44:42.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites] has finished in [30] ms
+30-Sep-2025 16:44:42.685 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:44:42.713 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1220] milliseconds
+30-Sep-2025 16:45:52.839 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\w]
+30-Sep-2025 16:45:52.907 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\w] has finished in [67] ms
+30-Sep-2025 16:46:43.526 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/w]
+30-Sep-2025 16:46:43.567 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023]
+30-Sep-2025 16:46:43.600 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023] has finished in [33] ms
+30-Sep-2025 16:49:03.935 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet - Copy]
+30-Sep-2025 16:49:04.035 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet - Copy] has finished in [101] ms
+30-Sep-2025 16:49:14.564 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ConorsAgeServlet - Copy]
+30-Sep-2025 16:49:14.588 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Voting]
+30-Sep-2025 16:49:14.588 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Voting] has started
+30-Sep-2025 16:49:14.643 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Voting] is completed
+30-Sep-2025 16:56:01.352 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:56:01.883 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 16:56:01.946 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 16:56:01.967 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:01:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:01:40.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:01:40.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.109\temp
+30-Sep-2025 17:01:40.435 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 17:01:40.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:01:40.861 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [649] milliseconds
+30-Sep-2025 17:01:40.895 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 17:01:40.895 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 17:01:40.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 17:01:41.337 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [158] milliseconds.
+30-Sep-2025 17:01:41.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [455] ms
+30-Sep-2025 17:01:41.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 17:01:41.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs] has finished in [36] ms
+30-Sep-2025 17:01:41.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 17:01:41.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples] has finished in [521] ms
+30-Sep-2025 17:01:41.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 17:01:41.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager] has finished in [52] ms
+30-Sep-2025 17:01:41.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 17:01:42.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager] has finished in [39] ms
+30-Sep-2025 17:01:42.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 17:01:42.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT] has finished in [30] ms
+30-Sep-2025 17:01:42.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 17:01:42.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [27] ms
+30-Sep-2025 17:01:42.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023]
+30-Sep-2025 17:01:42.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023] has finished in [28] ms
+30-Sep-2025 17:01:42.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 17:01:42.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting] has finished in [29] ms
+30-Sep-2025 17:01:42.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 17:01:42.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites] has finished in [16] ms
+30-Sep-2025 17:01:42.142 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:01:42.174 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1320] milliseconds
+30-Sep-2025 17:15:17.133 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:15:17.469 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 17:15:17.533 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:15:17.549 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:15:56.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:15:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 17:15:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 17:15:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 17:15:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 17:15:56.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 17:15:56.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 17:15:56.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:15:56.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:15:56.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.109\temp
+30-Sep-2025 17:15:56.373 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 17:15:56.776 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:15:56.814 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [679] milliseconds
+30-Sep-2025 17:15:56.856 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 17:15:56.856 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 17:15:56.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 17:15:57.315 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
+30-Sep-2025 17:15:57.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [458] ms
+30-Sep-2025 17:15:57.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 17:15:57.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs] has finished in [53] ms
+30-Sep-2025 17:15:57.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 17:15:57.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples] has finished in [553] ms
+30-Sep-2025 17:15:57.936 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 17:15:57.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager] has finished in [45] ms
+30-Sep-2025 17:15:57.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 17:15:58.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager] has finished in [54] ms
+30-Sep-2025 17:15:58.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 17:15:58.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT] has finished in [29] ms
+30-Sep-2025 17:15:58.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 17:15:58.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [24] ms
+30-Sep-2025 17:15:58.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023]
+30-Sep-2025 17:15:58.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023] has finished in [30] ms
+30-Sep-2025 17:15:58.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 17:15:58.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting] has finished in [16] ms
+30-Sep-2025 17:15:58.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 17:15:58.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites] has finished in [24] ms
+30-Sep-2025 17:15:58.185 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:15:58.217 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1399] milliseconds
+30-Sep-2025 17:18:18.522 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Voting]
+30-Sep-2025 17:18:18.523 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Voting] has started
+30-Sep-2025 17:18:18.591 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/Voting]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Voting]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3266)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1414)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1389)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1615)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [VotingServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2831)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:857)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1511)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1298)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 18 more
+30-Sep-2025 17:18:18.593 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Voting] is completed
+30-Sep-2025 17:18:58.714 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Voting]
+30-Sep-2025 17:19:30.051 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:19:30.560 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 17:19:30.594 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:19:30.612 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:19:39.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 17:19:39.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 17:19:39.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 17:19:39.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 17:19:39.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 17:19:39.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 17:19:39.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 17:19:39.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 17:19:39.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 17:19:39.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:19:39.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 17:19:39.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:19:39.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:19:39.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.109\temp
+30-Sep-2025 17:19:39.161 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 17:19:39.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:19:39.523 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [575] milliseconds
+30-Sep-2025 17:19:39.549 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 17:19:39.551 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 17:19:39.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 17:19:40.012 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [166] milliseconds.
+30-Sep-2025 17:19:40.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [470] ms
+30-Sep-2025 17:19:40.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 17:19:40.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs] has finished in [43] ms
+30-Sep-2025 17:19:40.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 17:19:40.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples] has finished in [538] ms
+30-Sep-2025 17:19:40.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 17:19:40.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager] has finished in [37] ms
+30-Sep-2025 17:19:40.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 17:19:40.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager] has finished in [43] ms
+30-Sep-2025 17:19:40.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 17:19:40.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT] has finished in [40] ms
+30-Sep-2025 17:19:40.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 17:19:40.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [31] ms
+30-Sep-2025 17:19:40.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023]
+30-Sep-2025 17:19:40.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023] has finished in [30] ms
+30-Sep-2025 17:19:40.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 17:19:40.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting] has finished in [56] ms
+30-Sep-2025 17:19:40.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 17:19:40.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites] has finished in [40] ms
+30-Sep-2025 17:19:40.904 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:19:40.922 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1399] milliseconds
+30-Sep-2025 17:27:27.592 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:27:28.037 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2025 17:27:28.095 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:27:28.107 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:27:51.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.109
+30-Sep-2025 17:27:51.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 1 2025 12:15:33 UTC
+30-Sep-2025 17:27:51.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.109.0
+30-Sep-2025 17:27:51.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2025 17:27:51.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2025 17:27:51.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2025 17:27:51.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+30-Sep-2025 17:27:51.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+30-Sep-2025 17:27:51.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2025 17:27:51.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:27:51.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:27:51.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\apache-tomcat-9.0.109\conf\logging.properties
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Sep-2025 17:27:51.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:27:51.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.109
+30-Sep-2025 17:27:51.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\apache-tomcat-9.0.109\temp
+30-Sep-2025 17:27:51.520 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\trick\AppData\Local\Microsoft\WindowsApps;;.]
+30-Sep-2025 17:27:52.160 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:27:52.209 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1034] milliseconds
+30-Sep-2025 17:27:52.262 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2025 17:27:52.263 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.109]
+30-Sep-2025 17:27:52.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet]
+30-Sep-2025 17:27:53.065 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [379] milliseconds.
+30-Sep-2025 17:27:53.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ConorsAgeServlet] has finished in [838] ms
+30-Sep-2025 17:27:53.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs]
+30-Sep-2025 17:27:53.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\docs] has finished in [70] ms
+30-Sep-2025 17:27:53.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples]
+30-Sep-2025 17:27:54.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\examples] has finished in [1,367] ms
+30-Sep-2025 17:27:54.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager]
+30-Sep-2025 17:27:54.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\host-manager] has finished in [80] ms
+30-Sep-2025 17:27:54.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager]
+30-Sep-2025 17:27:54.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\manager] has finished in [76] ms
+30-Sep-2025 17:27:54.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT]
+30-Sep-2025 17:27:54.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ROOT] has finished in [64] ms
+30-Sep-2025 17:27:54.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic]
+30-Sep-2025 17:27:54.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletBasic] has finished in [51] ms
+30-Sep-2025 17:27:54.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023]
+30-Sep-2025 17:27:54.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\ServletExample2023] has finished in [57] ms
+30-Sep-2025 17:27:54.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting]
+30-Sep-2025 17:27:54.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\Voting] has finished in [95] ms
+30-Sep-2025 17:27:54.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites]
+30-Sep-2025 17:27:55.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\apache-tomcat-9.0.109\webapps\websites] has finished in [64] ms
+30-Sep-2025 17:27:55.063 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2025 17:27:55.145 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2936] milliseconds

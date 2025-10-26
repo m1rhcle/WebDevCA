@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "apache-tomcat-9.0.109/lib/servlet-api.jar",
+        "apache-tomcat-9.0.109/lib/mysql-connector-j-8.0.31.jar"
+    ]
+}
