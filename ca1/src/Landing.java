@@ -1,0 +1,38 @@
+
+import java.io.IOException;
+import java.sql.*;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Landing extends HttpServlet {
+
+
+
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException ,NullPointerException{
+
+    
+    String register = request.getParameter("register");
+    
+    String login = request.getParameter("login");
+    
+    if(register != null) {
+    	RequestDispatcher rs = request.getRequestDispatcher("Register.html");
+    	rs.forward(request, response);
+    	
+    }else if(login != null) {
+   
+    	RequestDispatcher rs = request.getRequestDispatcher("Login.html");
+    	rs.forward(request, response);
+    
+    }
+    
+    
+    }
+    
+
+
+}

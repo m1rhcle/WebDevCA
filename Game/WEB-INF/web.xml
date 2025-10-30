@@ -4,18 +4,43 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
     version="2.4">
 	
-    <servlet>
-        <servlet-name>Game</servlet-name>
-        <servlet-class>AdventureQuest</servlet-class>
+	
+	
+	<servlet>
+        <servlet-name>LandingPage</servlet-name>
+        <servlet-class>Landing</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Game</servlet-name>
-        <url-pattern>/register</url-pattern>
+        <servlet-name>LandingPage</servlet-name>
+        <url-pattern>/landing</url-pattern>
     </servlet-mapping>
 	
 	
+    <servlet>
+        <servlet-name>RegisterPage</servlet-name>
+        <servlet-class>Register</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>RegisterPage</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>LoginPage</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginPage</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+	
+	
+	
 
 
 </web-app>
