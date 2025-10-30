@@ -18,6 +18,8 @@ public class Login extends HttpServlet {
         
         String Name = request.getParameter("Name");
         String pass = request.getParameter("pass");
+        String userVerify = null;
+        String passVerify= null;
         
         
         
@@ -25,37 +27,43 @@ public class Login extends HttpServlet {
 
         try {
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/users?serverTimezone=UTC","root", "root");
+					"jdbc:mysql://localhost:3306/AQWorlds?serverTimezone=UTC","root", "root");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     
     try{
-        PreparedStatement ps = connection.prepareStatement("Select userid, username, password from users Where username = (?) ");
+        PreparedStatement ps = connection.prepareStatement("Select * from users Where username = (?) AND password = (?)");
        
-        ResultSet rs = ps.executeQuery();
         ps.setString(1,Name);
-       
-       
-       
-       
+        ps.setString(2,pass);
+        
+    
+    	
+        ResultSet rs = ps.executeQuery();
+        
         
         while(rs.next()){
-        String userVerify = rs.getString(1);
-        String passVerify = rs.getString(2);
-        
-                if(Name == userVerify && pass == passVerify ){
-
-                	  RequestDispatcher rd = request.getRequestDispatcher("Login.html");
-                	 	rd.forward(request, response);
-                      
-                      rs.close();
-                      ps.close();
-
-                }
+        userVerify = rs.getString("username");
+         passVerify = rs.getString("password");
         }
-          
+        
+        
+        if(Name.equals(userVerify) && pass.equals(passVerify)){
+
+        	
+        	
+        	 rs.close();
+             ps.close();
+             response.sendRedirect("AQWorld.html");
+	 	
+        }else {
+        	
+        	 response.sendRedirect("Login.html")
+        	
+        	
+        }
 
         }catch (SQLException e) {
 			// TODO Auto-generated catch block

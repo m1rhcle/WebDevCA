@@ -20,13 +20,11 @@ public class Landing extends HttpServlet {
     String login = request.getParameter("login");
     
     if(register != null) {
-    	RequestDispatcher rs = request.getRequestDispatcher("Register.html");
-    	rs.forward(request, response);
+    	response.sendRedirect("Register.html")
     	
     }else if(login != null) {
    
-    	RequestDispatcher rs = request.getRequestDispatcher("Login.html");
-    	rs.forward(request, response);
+    	response.sendRedirect("Login.html")
     
     }
     

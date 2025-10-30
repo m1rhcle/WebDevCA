@@ -1,9 +1,5 @@
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -25,45 +21,51 @@ if(heroName.length() < 25 && password.equals(reEnterPassword) && reEnterPassword
 
  
      
-     insertInto(heroName, password, email);
-     RequestDispatcher rs = request.getRequestDispatcher("Login.html");
- 	rs.forward(request, response);
+  //   insertInto(heroName, password, email);
+     
+     Connection connection=null;
+     try {
+ 			connection = DriverManager.getConnection(
+ 					"jdbc:mysql://localhost:3306/AQWorlds?serverTimezone=UTC","root", "root");
+ 	        String insert = "INSERT into users (username, password, email)  VALUES (?,?,?)";
+ 			PreparedStatement userentry = connection.prepareStatement(insert);
+ 					
+ 			userentry.setString(1, heroName);
+             userentry.setString(2, password);
+             userentry.setString(3, email);
+             
+             
+             int rows = userentry.executeUpdate();
+
+            
+            
+ 			
+ 			 Statement select = connection.createStatement();
+ 			 ResultSet rs = select.executeQuery("SELECT * from users");
+
+			while(rs.next()) {
+				System.out.println("Column 1 in ResultSet : "+rs.getString(1) + ", " + rs.getString(2) + ", " + rs.getString(3));
+			}
+ 			
+			rs.close();
+ 			userentry.close();
+ 		
+ 			
+ 		} catch (SQLException e1) {
+ 			e1.printStackTrace();
+ 		}
+
+     response.sendRedirect("Login.html");
+
+    }else {
+    	
+    	 RequestDispatcher rd = request.getRequestDispatcher("Register.html");
+    	 	rd.forward(request, response);
+    	
     }
 
 
 }
 
-private void insertInto(String heroName,String password,String email){
-  
-    Connection connection=null;
-    try {
-			connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/users?serverTimezone=UTC","root", "root");
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		try {
-			PreparedStatement userentry = connection.prepareStatement(
-					"INSERT into users(username, password, email) "  +" VALUES (?),(?),(?)");
-					
-			userentry.setString(1, heroName);
-            userentry.setString(2, password);
-            userentry.setString(3, email);
-            
-           
-			int rowsUpdated = userentry.executeUpdate();
-			
-			
-			userentry.close();
-		} catch (SQLException e1) {
-			e1.printStackTrace();
-		}
-
-
-
-        
-    }
 }
 
