@@ -16,6 +16,7 @@ public void doGet(HttpServletRequest request, HttpServletResponse response) thro
     String password = request.getParameter("password");
     String reEnterPassword = request.getParameter("reEnterPassword");
     String email = request.getParameter("email");
+    int userid =0;
 
 if(heroName.length() < 25 && password.equals(reEnterPassword) && reEnterPassword != null && email.contains("@") == true){
 
@@ -37,11 +38,16 @@ if(heroName.length() < 25 && password.equals(reEnterPassword) && reEnterPassword
              
              int rows = userentry.executeUpdate();
 
-            
+             if (rows > 0) {
+                 System.out.println("User successfully registered: " + heroName);
+             } else {
+                 System.out.println("No rows inserted.");
+             }
+             
             
  			
- 			 Statement select = connection.createStatement();
- 			 ResultSet rs = select.executeQuery("SELECT * from users");
+ 			Statement select = connection.createStatement();
+ 			ResultSet rs = select.executeQuery("SELECT * from users");
 
 			while(rs.next()) {
 				System.out.println("Column 1 in ResultSet : "+rs.getString(1) + ", " + rs.getString(2) + ", " + rs.getString(3));
@@ -49,6 +55,29 @@ if(heroName.length() < 25 && password.equals(reEnterPassword) && reEnterPassword
  			
 			rs.close();
  			userentry.close();
+ 			//GET USERID
+ 			
+ 			PreparedStatement useridps= connection.prepareStatement("SELECT userid FROM users WHERE username = ?");
+ 	        useridps.setString(1,heroName);
+ 	        
+ 	        ResultSet useridrs = useridps.executeQuery();
+ 	        
+ 	        
+ 	        while(useridrs.next()) {
+ 	        	
+ 	        	userid = useridrs.getInt("userid");
+ 	        }
+ 	        
+ 	        useridrs.close();
+ 	        useridps.close();
+ 			
+ 	        // Create user balance
+ 			PreparedStatement userbalance = connection.prepareStatement("Insert into userbalance(userid) Values(?)" );
+ 			
+ 			userbalance.setInt(1, userid);
+ 			userbalance.executeUpdate();
+ 			
+ 			userbalance.close();
  		
  			
  		} catch (SQLException e1) {
