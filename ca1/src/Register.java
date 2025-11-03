@@ -85,11 +85,13 @@ if(heroName.length() < 25 && password.equals(reEnterPassword) && reEnterPassword
  		}
 
      response.sendRedirect("Login.html");
+     return;
 
     }else {
     	
     	 RequestDispatcher rd = request.getRequestDispatcher("Register.html");
     	 	rd.forward(request, response);
+    	 	return;
     	
     }
 

@@ -39,7 +39,45 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 	
+	<servlet>
+		<servlet-name>ACshopPage</servlet-name>
+		<servlet-class>ACshop</servlet-class>
+    </servlet>
 	
+	<servlet-mapping>
+		<servlet-name>ACshopPage</servlet-name>
+		<url-pattern>/ACshop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MysticalYokaiPage</servlet-name>
+		<servlet-class>MywShop</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MysticalYokaiPage</servlet-name>
+		<url-pattern>/MYWShop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AbyssalAngelPage</servlet-name>
+		<servlet-class>AAshop</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AbyssalAngelPage</servlet-name>
+		<url-pattern>/AAShop</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AQWorlds</servlet-name>
+		<servlet-class>AQWorlds</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AQWorlds</servlet-name>
+		<url-pattern>/AQWorlds</url-pattern>
+	</servlet-mapping>
 	
 
 
