@@ -71,8 +71,8 @@ if (session != null && session.getAttribute("username") != null) {
 
 						"<form action='AQWorlds'>" +
 
-						"    <button style='width: 200px; height: 50px;' name='shop1'>Mystical Yokai Warrior</button><br><br>" +
-						"    <button style='width: 200px; height: 50px;' name='shop2'>Abyssal Angel</button><br><br>" +
+						"    <button style='width: 200px; height: 50px;' name='MywShop'>Mystical Yokai Warrior</button><br><br>" +
+						"    <button style='width: 200px; height: 50px;' name='AAshop'>Abyssal Angel</button><br><br>" +
 						"    <button style='width: 200px; height: 50px;' name='ACshop'>Buy AC Now!</button>" +
 
 						"</form>" +
@@ -104,16 +104,16 @@ if (session != null && session.getAttribute("username") != null) {
 					
 					
 
-					String shop1 = request.getParameter("shop1");
-					String shop2 = request.getParameter("shop2");
+					String shop1 = request.getParameter("MywShop");
+					String shop2 = request.getParameter("AAshop");
 					String ACshop = request.getParameter("ACshop");
 					
 					if(ACshop != null) {
 				    	
 						
 						
-						RequestDispatcher rd = request.getRequestDispatcher("ACshop");
-				 	 	rd.forward(request, response);
+						response.sendRedirect("ACshop");
+				 	 	return;
 				 	 	
 				 	 
 						
@@ -125,17 +125,15 @@ if (session != null && session.getAttribute("username") != null) {
 				  
 					
 					if(shop1 != null) {
-				    	RequestDispatcher rs = request.getRequestDispatcher("MYWShop");
-				    	rs.forward(request, response);
-				     
+						response.sendRedirect("MywShop");
+				    	
+				     return;
 				    
 					}
 					
 					if(shop2 != null) {
-				    	RequestDispatcher rs = request.getRequestDispatcher("AAShop");
-				    	rs.forward(request, response);
-				     
-				    
+				    	 response.sendRedirect("AAshop");
+				    	return;
 					}
 		}
 		

@@ -130,8 +130,8 @@ public class Login extends HttpServlet {
 				
 				if (session != null && session.getAttribute("username") != null) {
 					 
-					 RequestDispatcher rd = request.getRequestDispatcher("AQWorlds");
-			  		rd.forward(request, response);
+					response.sendRedirect("AQWorlds");
+			  	
 					return;
 				}
 			

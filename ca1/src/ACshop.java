@@ -19,12 +19,6 @@ public class ACshop extends HttpServlet {
 	 HttpSession session = request.getSession(false);
 		 
 		 
-		 
-	
-		 
-		
-		 
-		 
 		 Connection connection=null;
 		 try {
 				connection = DriverManager.getConnection(
@@ -35,7 +29,8 @@ public class ACshop extends HttpServlet {
 			}
 		 
 		 
-	
+		 String	username = (String) session.getAttribute("username");
+		   int AC = (int) session.getAttribute("AdventureCoins");
 		 
 	
 		 
@@ -55,10 +50,13 @@ public class ACshop extends HttpServlet {
 					"<h1>Adventure Coins Shop!</h1> "+
 
 					"<form action='ACshop'>" +
+					"<h2>AC: " + AC + "</h2>"+
 
 					"   <button style='width: 200px; height: 50px;' name='500'>Buy 500 AC Coins</button><br><br>" +
 					"   <button style='width: 200px; height: 50px;' name='1500'>Buy 1500 AC Coins</button><br><br>" +
-					"   <button style='width: 200px; height: 50px;' name='3000'>Buy 3000 AC Coins</button>" +
+					"   <button style='width: 200px; height: 50px;' name='3000'>Buy 3000 AC Coins</button>" );
+			
+		out.println("   <button style='width: 200px; height: 25px;' name='home'>Go back To Home!</button>" +
 
 					"</form>" +
 
@@ -68,8 +66,7 @@ public class ACshop extends HttpServlet {
 			
 			
 			 System.out.println("Current session ID: " + session.getId());
-			String	username = (String) session.getAttribute("username");
-			   int AC = (int) session.getAttribute("AdventureCoins");
+			
 			   int userid = (int) session.getAttribute("userid");
 				
 			   
@@ -79,19 +76,18 @@ public class ACshop extends HttpServlet {
 			   String coins500 = request.getParameter("500");
 				String coins1500 = request.getParameter("1500");
 				String coins3000 = request.getParameter("3000");
+				String home = request.getParameter("home");
 				
 				if(coins500 != null) {
 					try {
-						PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins + 500 WHERE userid = ?");
+						PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins = AdventureCoins + 500 WHERE userid = ?");
 						
 						insert.setInt(1, userid);
 						insert.executeUpdate();
 						
 						insert.close();
 						
-						 RequestDispatcher rd = request.getRequestDispatcher("AQWorlds");
-					  		rd.forward(request, response);
-							return;
+						
 					} catch (SQLException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -102,15 +98,13 @@ public class ACshop extends HttpServlet {
 					
 				else if(coins1500 != null) {
 						try {
-							PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins + 1500 WHERE userid = ?");
+							PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins = AdventureCoins + 1500 WHERE userid = ?");
 							
 							insert.setInt(1, userid);
 							insert.executeUpdate();
 							
 							insert.close();
-							 RequestDispatcher rd = request.getRequestDispatcher("AQWorlds");
-						  		rd.forward(request, response);
-								return;
+							
 							
 						} catch (SQLException e) {
 							// TODO Auto-generated catch block
@@ -118,9 +112,9 @@ public class ACshop extends HttpServlet {
 						}
 					}
 			    
-					if(coins3000 != null) {
+				else if(coins3000 != null) {
 						try {
-							PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins + 3000 WHERE userid = ?");
+							PreparedStatement insert = connection.prepareStatement("UPDATE userbalance SET AdventureCoins = AdventureCoins + 3000 WHERE userid = ?");
 							
 							insert.setInt(1, userid);
 							insert.executeUpdate();
@@ -128,13 +122,18 @@ public class ACshop extends HttpServlet {
 							insert.close();
 							
 							
-							 RequestDispatcher rd = request.getRequestDispatcher("AQWorlds");
-						  		rd.forward(request, response);
-								return;
+							
 						} catch (SQLException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
+				} else if (home != null) {
+					
+					 RequestDispatcher rd = request.getRequestDispatcher("AQWorlds");
+				  		rd.forward(request, response);
+						return;
+					
+					
 				}
 				
 			}
